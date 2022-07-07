@@ -1,0 +1,50 @@
+@import "../../../App.scss";
+
+.item {
+  width: 22%;
+  padding: 15px;
+  margin: 15px;
+  border-radius: 10px;
+  border: 1px solid gray;
+
+  .upper-section {
+    display: flex;
+
+    img {
+      width: 50%;
+      height: 100px;
+    }
+
+    p {
+      padding-left: 10px;
+      width: 70%;
+      word-wrap: break-word;
+      overflow-wrap: break-word;
+    }
+  }
+
+  .footer-section {
+    .category {
+      h3 {
+        font-style: italic;
+      }
+    }
+
+    .cart-button {
+      background-color: green;
+      color: white;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      cursor: pointer;
+    }
+  }
+
+  @media only screen and (max-width: $maxWidth768) {
+    width: 40%;
+  }
+
+  @media only screen and (max-width: $maxWidth505) {
+    width: 100%;
+  }
+}

@@ -1,0 +1,32 @@
+.flex {
+  img {
+    width: 100%;
+    background-size: cover;
+  }
+}
+
+.welcome-text {
+  height: 450px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: x-large;
+  padding-left: 15%;
+  padding-right: 15%;
+
+  p {
+    line-height: 30pt;
+  }
+}
+
+.items {
+  height: auto;
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+
+  .row-single {
+    padding-left: 5%;
+    padding-right: 2%;
+  }
+}

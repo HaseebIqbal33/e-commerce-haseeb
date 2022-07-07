@@ -1,0 +1,48 @@
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  padding: 5px;
+
+  .image {
+    width: 7%;
+    img {
+      width: 60px;
+      height: 60px;
+    }
+  }
+
+  .details {
+    width: 40%;
+  }
+
+  .buttons {
+    display: flex;
+    width: 20%;
+
+    input {
+      width: 40%;
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+
+    p {
+      font-size: x-large;
+      margin-left: 4px;
+      margin-right: 4px;
+      cursor: pointer;
+    }
+  }
+
+  .price {
+    width: 10%;
+  }
+
+  .delete {
+    width: 2%;
+    cursor: pointer;
+    color: red;
+    font-weight: bold;
+  }
+}

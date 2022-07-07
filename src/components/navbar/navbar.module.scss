@@ -1,0 +1,49 @@
+.message-bar {
+  background-color: black;
+  color: white;
+  display: block;
+  text-align: center;
+  padding: 1px;
+  font-size: 16px;
+}
+
+.navbar {
+  height: 80px;
+  background-color: white;
+  padding: 15px 10px 10px 35px;
+  display: flex;
+  align-items: center;
+
+  .hamburger {
+    width: 10%;
+
+    img {
+      width: 30px;
+    }
+  }
+
+  .menu {
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+
+    a {
+      font-size: 18px;
+      text-decoration: none;
+      color: black;
+    }
+  }
+
+  .logo {
+    width: 35%;
+  }
+
+  .options {
+    width: 15%;
+    display: flex;
+    justify-content: space-evenly;
+    img {
+      width: 30px;
+    }
+  }
+}
